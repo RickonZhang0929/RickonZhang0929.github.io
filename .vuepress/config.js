@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "Rickon的技术笔记",
+  "title": "Rickon的博客",
   "description": "Rickon Zhang",
   "dest": "public",
   "head": [
@@ -20,6 +20,13 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    // 备案
+    "record": "京ICP备2023015491号",
+    "startYear": "2023",
+    "recordLink": 'http://beian.miit.gov.cn/',
+
+    "subSidebar": 'auto',
+
     "primaryColor": "#1e90ff",
     "nav": [
       {
@@ -33,11 +40,11 @@ module.exports = {
         "icon": "reco-date"
       },
       {
-        "text": "文档",
+        "text": "说明",
         "icon": "reco-message",
         "items": [
           {
-            "text": "vuepress-reco",
+            "text": "博客说明",
             "link": "/docs/theme-reco/"
           }
         ]
@@ -57,45 +64,41 @@ module.exports = {
     "sidebar": {
       "/docs/theme-reco/": [
         "",
-        "theme",
-        "plugin",
-        "api",
-          "字节内部课"
+        "个人介绍"
       ]
     },
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "类别"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
-    "friendLink": [
-      {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "Rickon的技术笔记",
-        "desc": "记录学习编程的经验和思考",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
-    ],
+    // "friendLink": [
+    //   {
+    //     "title": "午后南杂",
+    //     "desc": "Enjoy when you can, and endure when you must.",
+    //     "email": "1156743527@qq.com",
+    //     "link": "https://www.recoluan.com"
+    //   },
+    //   {
+    //     "title": "Rickon的技术笔记",
+    //     "desc": "记录学习编程的经验和思考",
+    //     "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+    //     "link": "https://vuepress-theme-reco.recoluan.com"
+    //   }
+    // ],
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "",
+    "author": "Rickon Zhang",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
-    "startYear": "2017"
+
   },
   "markdown": {
     "lineNumbers": true

@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: Rickon的技术笔记
-tagline: 记录学习编程的经验和思考
+heroText: Rickon的博客
+tagline: 技术笔记与生活随笔
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
